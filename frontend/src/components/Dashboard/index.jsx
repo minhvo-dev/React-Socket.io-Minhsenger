@@ -27,7 +27,6 @@ const useStyles = makeStyles(theme => ({
   },
   listContainer: {
     flex: 1,
-    maxWidth: "100%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -36,7 +35,7 @@ const useStyles = makeStyles(theme => ({
   list: {
     flex: 1,
     padding: theme.spacing(2, 1),
-    maxHeight: 450,
+    maxHeight: "calc(80vh - 120px)",
     overflow: "auto",
     position: "relative"
   }
@@ -63,7 +62,7 @@ const Dashboard = ({
       <Typography className={classes.header}>
         {signInInfo.room}
       </Typography>
-      <Paper elevation={1} className={classes.listContainer}>
+      <Paper elevation={0} className={classes.listContainer}>
         <List
           className={classes.list}
         >
