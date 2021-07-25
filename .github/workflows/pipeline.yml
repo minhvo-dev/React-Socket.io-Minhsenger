@@ -40,6 +40,7 @@ jobs:
           heroku_app_name: minhsenger
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
           appdir: "backend"
+          healthcheck: https://minhsenger.herokuapp.com/
       - name: discord success notification
         uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
         if: ${{ github.event_name == 'push' && success() }}
