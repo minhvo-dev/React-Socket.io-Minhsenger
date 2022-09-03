@@ -44,7 +44,7 @@
 - [Minhsenger™][app-link] is a case study of INFO-3139 course at Fanshawe College.   
 - Special thanks to [Professor Evan Lauersen][evan-lauersen-github] for providing color codes of the chat bubbles.   
 
-[app-link]: https://minhsenger.herokuapp.com/   
+[app-link]: https://github.com/minhvo-dev/React-Socket.io-Minhsenger   
 [pwa-wiki]: https://en.wikipedia.org/wiki/Progressive_web_application   
 [create-react-app-repo]: https://github.com/facebook/create-react-app
 [material-ui-website]: https://material-ui.com/  
